@@ -38,7 +38,7 @@ const Home = () => {
 		<Navbar />
 		<Jumbotron />
 
-		<div className="d-inline-flex p-2 ">
+		<div className="row">
 
 			{card.map((value, index) => {
 				return <Cards key={index} title={value.title} description={value.description} />
